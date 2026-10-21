@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../SessionDesk.Orm/SessionDesk.Orm.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="Npgsql" Version="8.0.6" />
+  </ItemGroup>
+</Project>
